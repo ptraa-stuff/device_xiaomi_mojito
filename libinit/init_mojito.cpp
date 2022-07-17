@@ -79,7 +79,13 @@ void load_vendor_props() {
     property_override("ro.product.model", "Redmi Note 10");
 }
 
+void ricedroid_props() {
+    property_override("ro.rice.maintainer", "Fiqri Ardyansyah");
+    property_override("ro.rice.chipset", "Snapdragon 678");
+}
+
 void vendor_load_properties() {
     load_vendor_props();
     load_dalvikvm_props();
+    ricedroid_props();
 }
