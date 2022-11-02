@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_mojito.mk
+    $(LOCAL_DIR)/p404_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_mojito-user \
-    derp_mojito-userdebug \
-    derp_mojito-eng
+    p404_mojito-user \
+    p404_mojito-userdebug \
+    p404_mojito-eng
